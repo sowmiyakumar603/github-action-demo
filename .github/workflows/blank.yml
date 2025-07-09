@@ -28,4 +28,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: list of cloned file
         run: |
-          ls-al
+          echo "Files in the repository:"
+          ls -al
